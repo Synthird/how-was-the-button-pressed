@@ -25,3 +25,9 @@ a:active {
 a:visited {
 	color: rgb(238, 151, 162);
 }
+
+@media (scripting: none) {
+	.button, [id="display-pressed-method"] {
+		display: none;
+	}
+}
