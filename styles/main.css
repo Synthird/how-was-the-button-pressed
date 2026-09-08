@@ -27,7 +27,7 @@ a:visited {
 }
 
 @media (scripting: none) {
-	.button, [id="display-pressed-method"] {
+	div:has(button), [id="display-pressed-method"] {
 		display: none;
 	}
 }
